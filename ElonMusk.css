@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.theatlantic.com/thumbor/xSW_HPcGy8PwVOCrQCRHjRZV8EY=/0x0:2500x1406/976x549/media/img/mt/2022/04/GettyImages_1240015769/original.jpg);
+
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 35px;
+    position: fixed;
+	width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    padding: 8px 20px;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a:hover {
+    transition: 0.5s;
+    color: rgb(255, 127, 127);
+    
+}
+
+.intro {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 3em;
+}
+
+.name,
+.quote {
+    width: 100%;
+    color: darkcyan;
+    margin-bottom: 100px;
+    margin-right: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: 0px;
+    z-index: 1;
+}
+
+.name:hover{
+    text-shadow: 1px 0 10px #32a898a2;
+    transform: -0.02em;
+   
+}
+
+.quote {
+	font-size: 0.9em;
+	margin-top: 0;
+	letter-spacing: 1px;
+    color: white;
+    text-align: start;
+    font-family: 'Noto Serif', serif;
+}
+
+.quote:hover{
+    text-shadow: 1px 0 12px wheat;
+}
+
+.about{
+    margin: 50px 200px 20px 200px;
+    
+}
+
+.about .def {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    text-align: center;
+    background-color: darkslategray;
+    border: 5px solid darkslategray;
+    padding: 3px 10px;
+    margin: 3em 30em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: small;
+    
+}
+button:hover {
+   color: aliceblue;
+   background-color: darkslategrey;
+   border-color: darkslategray;
+   
+}
